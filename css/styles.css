@@ -104,3 +104,63 @@
     text-align: center;
     background-color: rgb(203, 205, 143);
   }  
+  .botones {
+    display: flex;
+    gap: 2em;
+    width: 100%;
+    justify-content: space-around;
+  }
+  
+  
+  .game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 5rem;
+    min-width: 450px;
+    
+  }
+  
+  .player-info {
+    text-align: center;
+  }
+  
+  .game-board {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(7, 95, 11);
+    background-color: rgb(203, 205, 143);
+    margin: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+  }
+  
+  .game-info {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .winner {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .turn{
+    font-size: x-large;
+    font-weight: bold;
+  }
