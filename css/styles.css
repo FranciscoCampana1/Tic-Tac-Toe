@@ -6,16 +6,18 @@
   #fondo{
     background-color: rgb(255,76,76);
     height: 100vh;
+    width: 100%;
   }
   
   .containerGeneral {
     height: 100vh;
     position: relative;
     background-image: url("https://cdn.dribbble.com/users/108183/screenshots/5288723/tic_tac_toe_loader_.gif");
-    background-image: no-repeat;
-    background-image: fixed;
-    background-image: center;
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: center;
+
+    background-color:  rgb(255,76,76);
+    background-position: center;
   }
   
   .contenedor {
@@ -175,4 +177,18 @@
   #fondo{
     height: 100%;
   }
+  .botones{
+    display: block;
+    height: 5px;
+  }
+  .contenedorBotones{
+    left: 62%;
+  }
+  .containerButton{
+
+  }
+}
+
+@media(max-width: 768px){
+  
 }
