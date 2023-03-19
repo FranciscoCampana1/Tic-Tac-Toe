@@ -2,3 +2,44 @@
     margin: 0;
     padding: 0;
   }
+
+  #fondo{
+    background-color: rgb(255,76,76);
+    height: 100vh;
+  }
+  
+  .containerGeneral {
+    height: 100vh;
+    position: relative;
+    background-image: url("https://cdn.dribbble.com/users/108183/screenshots/5288723/tic_tac_toe_loader_.gif");
+    background-image: no-repeat;
+    background-image: fixed;
+    background-image: center;
+    background-size: cover;
+  }
+  
+  .contenedor {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .titulo {
+    text-decoration: line-through;
+    width: 60vw;
+    height: 20vh;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contenedorBotones {
+    width: 80vw;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+  }
+  
