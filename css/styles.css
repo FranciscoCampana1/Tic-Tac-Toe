@@ -91,3 +91,16 @@
     color: black;
   }
   
+  #player1{
+    border-radius: 5px;
+    height: 2em;
+    text-align: center;
+    background-color: rgb(203, 205, 143);
+  
+  }
+  #player2{
+    border-radius: 5px;
+    height: 2em;
+    text-align: center;
+    background-color: rgb(203, 205, 143);
+  }  
