@@ -1,46 +1,34 @@
-# Project Title
+# Tic Tac Toe 
 
-## Table of Contents
 
-- [About](#about)
-- [Getting Started](#getting_started)
-- [Usage](#usage)
-- [Contributing](../CONTRIBUTING.md)
 
-## About <a name = "about"></a>
+## About 
 
-Write about 1-2 paragraphs describing the purpose of your project.
+This project was carried out in order to finish the concepts of html and css and then implement JavaScript.
 
-## Getting Started <a name = "getting_started"></a>
+## Deploy
+Using HTML and CSS 
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+## Getting Started 
+To be able to play this game, all you need is an internet connection and a browser that can interpret Javascript
 
-### Prerequisites
+### Images
 
-What things you need to install the software and how to install them.
-
+<img src="images/img-tic-tac-toe-1.jpg.png" alt="imagen-Tablet">
 ```
-Give examples
+This image is how it is seen on tablet
 ```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running.
-
-Say what the step will be
-
+<img src="images/img-tic-tac-toe-2.jpg.png" alt="imagen-Notebook">
 ```
-Give the example
+This image is how it is seen on Notebook
 ```
-
-And repeat
-
+<img src="images/img-tic-tac-toe-3.jpg.png" alt="imagen-mobile">
 ```
-until finished
+This image is how it is seen on Mobile
 ```
+<h2> Demo</h2>
+Click <a href="https://franciscocampana1.github.io/Tic-Tac-Toe/">hear</a> for go to the demo. 
 
-End with an example of getting some data out of the system or using it for a little demo.
+## Usage 
 
-## Usage <a name = "usage"></a>
-
-Add notes about how to use the system.
+To use or modify the code can be done with a code editor, in this case we have used Visual Studio Code

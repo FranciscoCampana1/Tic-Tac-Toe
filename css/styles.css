@@ -26,6 +26,7 @@
   }
   
   .titulo {
+    font-size: x-large;
     text-decoration: line-through;
     width: 60vw;
     height: 20vh;
@@ -184,11 +185,3 @@
   .contenedorBotones{
     left: 62%;
   }
-  .containerButton{
-
-  }
-}
-
-@media(max-width: 768px){
-  
-}
