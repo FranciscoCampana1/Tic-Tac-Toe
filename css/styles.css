@@ -178,6 +178,9 @@
   #fondo{
     height: 100%;
   }
+  .titulo{
+    font-size: large;
+  }
   .botones{
     display: block;
     height: 5px;
