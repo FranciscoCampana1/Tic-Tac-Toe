@@ -1,192 +1,204 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
+  margin: 0;
+  padding: 0;
+}
 
-  #fondo{
-    background-color: rgb(255,76,76);
-    height: 100vh;
-    width: 100%;
-  }
-  
-  .containerGeneral {
-    height: 100vh;
-    position: relative;
-    background-image: url("https://cdn.dribbble.com/users/108183/screenshots/5288723/tic_tac_toe_loader_.gif");
-    background-repeat: no-repeat;
-    background-size: center;
+#fondo {
+  background-color: rgb(255, 76, 76);
+  height: 100%;
+  width: 100%;
+}
 
-    background-color:  rgb(255,76,76);
-    background-position: center;
-  }
-  
-  .contenedor {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .titulo {
-    font-size: x-large;
-    text-decoration: line-through;
-    width: 60vw;
-    height: 20vh;
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .contenedorBotones {
-    width: 80vw;
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    justify-content: space-between;
-  }
-  .containerWinner {
-    background-color: rgb(255,76,76);
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .cartel {
-    width: 500px;
-    height: 500px;
-    border-radius: 20px;
-    text-align: center;
-    background-image: url("https://cdn.dribbble.com/users/108183/screenshots/5288723/tic_tac_toe_loader_.gif");
-    background-size: 500px;
-    background-position: 10px;
-  }
-  .congratulations {
-    padding: 3rem;
-  }
-  
-  .textWinner {
-    width: 500px;
-    height: 350px;
-  }
-  
-  .containerButton {
-    width: 500px;
-    height: 150px;
-    border-radius: 20px;
-    margin-top: 180px;
-  }
-  
-  .boton {
-    color: white;
-    font-size: x-large;
-    width: 300px;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    border-radius: 25px;
-    background-color: rgb(0, 0, 0);
-  }
-  
-  .boton:hover {
-    background-color: rgba(239, 223, 0, 0.607);
-    color: black;
-  }
-  
-  #player1{
-    border-radius: 5px;
-    height: 2em;
-    text-align: center;
-    background-color: rgb(203, 205, 143);
-  
-  }
-  #player2{
-    border-radius: 5px;
-    height: 2em;
-    text-align: center;
-    background-color: rgb(203, 205, 143);
-  }  
-  .botones {
-    display: flex;
-    gap: 2em;
-    width: 100%;
-    justify-content: space-around;
-  }
-  
-  
+.containerGeneral {
+  height: 100vh;
+  position: relative;
+  background-image: url("https://cdn.dribbble.com/users/108183/screenshots/5288723/tic_tac_toe_loader_.gif");
+  background-repeat: no-repeat;
+  background-size: center;
+
+  background-color: rgb(255, 76, 76);
+  background-position: center;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+}
+
+.titulo {
+  font-size: 1em;
+  text-decoration: line-through;
+  width: 60vw;
+  height: 20vh;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedorBotones {
+  width: 80vw;
+  position: absolute;
+  top: 70%;
+  left: 62%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-between;
+}
+
+.containerWinner {
+  background-color: rgb(255, 76, 76);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cartel {
+  width: 500px;
+  height: 500px;
+  border-radius: 20px;
+  text-align: center;
+  background-image: url("https://cdn.dribbble.com/users/108183/screenshots/5288723/tic_tac_toe_loader_.gif");
+  background-size: 500px;
+  background-position: 10px;
+}
+
+.congratulations {
+  padding: 3rem;
+}
+
+.textWinner {
+  width: 500px;
+  height: 350px;
+}
+
+.containerButton {
+  width: 500px;
+  height: 150px;
+  border-radius: 20px;
+  margin-top: 180px;
+}
+
+.boton {
+  color: white;
+  font-size: 1em;
+  width: 200px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 25px;
+  background-color: rgb(0, 0, 0);
+}
+
+.boton:hover {
+  background-color: rgba(239, 223, 0, 0.607);
+  color: black;
+}
+
+#player1 {
+  border-radius: 5px;
+  height: 2em;
+  text-align: center;
+  background-color: rgb(203, 205, 143);
+
+}
+
+#player2 {
+  border-radius: 5px;
+  height: 2em;
+  text-align: center;
+  background-color: rgb(203, 205, 143);
+}
+
+.botones {
+  display: block;
+  height: 5px;
+  gap: 2em;
+  width: 100%;
+  justify-content: space-around;
+}
+
+
+.game-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  gap: 5rem;
+  flex-direction: column;
+
+}
+
+.player-info {
+  text-align: center;
+}
+
+
+.game-board {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  border: 1px solid rgb(7, 95, 11);
+  background-color: rgb(203, 205, 143);
+  margin: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
+
+.game-info {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.winner {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.turn {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+
+@media(min-width:768px) {
   .game-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 3rem;
-    gap: 5rem; 
-  }
-  
-  .player-info {
-    text-align: center;
+    flex-direction: row;
   }
 
-  
-  .game-board {
-    display: flex;
-    flex-direction: column;
+  .boton {
+    width: 300px;
   }
-  
-  .row {
-    display: flex;
+
+  #fondo {
+    height: 100vh;
   }
-  
-  .cell {
-    width: 100px;
-    height: 100px;
-    border: 1px solid rgb(7, 95, 11);
-    background-color: rgb(203, 205, 143);
-    margin: 5px;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+  .titulo {
     font-size: 2em;
   }
-  
-  .game-info {
+
+  .botones {
     display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  .winner {
-    font-size: 1.5em;
-    font-weight: bold;
-  }
-  
-  .turn{
-    font-size: x-large;
-    font-weight: bold;
   }
 
+  .contenedorBotones {
+    left: 50%;
+  }
 
-  @media(max-width: 576px){
-  .game-container{
-      flex-direction: column;
-    }
-  .boton{
-    width: 200px;
-  }
-  #fondo{
-    height: 100%;
-  }
-  .titulo{
-    font-size: large;
-  }
-  .botones{
-    display: block;
-    height: 5px;
-  }
-  .contenedorBotones{
-    left: 62%;
-  }
-  
 }
