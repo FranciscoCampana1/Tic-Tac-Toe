@@ -1,3 +1,4 @@
+//pint board-game
 const renderTablero = () => {
   return `
   <div id="fondo">
@@ -93,8 +94,10 @@ const pintCell = () => {
   }
 };
 
+//Agregar eventos a los botones de name y llamar a la funcion que pinta las celdas
+
 const showBoard = () => {
-  const buttonPlayer = document.getElementById("buttonPlayer");
+  const buttonPlayer = document.getElementById("buttonPlay");
   buttonPlayer.addEventListener("click", () => {
     root.innerHTML = renderTablero();
     //botones
@@ -120,3 +123,4 @@ const showBoard = () => {
   });
 };
 showBoard();
+

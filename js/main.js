@@ -2,12 +2,12 @@ const root = document.getElementById("root");
 const game = {
   player1:{
       name: null,
-      mark: "",
+      mark: '<img src="images/coin.png" alt="ficha-moneda" class="fichaMoneda">',
 
   },
   player2:{
     name: null,
-    mark: "o",
+    mark: '<img src="images/espada.png" alt="imagen-espadas" class="fichaEspada">',
 
   }
 }
@@ -20,18 +20,15 @@ const renderIndex = () => {
         </div>
       </div>
       <div class="contenedorBotones">
-        <div class="botones">
-          
-          <button class="boton" type="button" id="buttonPlayer">Player vs Player</button>
-        
-          <button class="boton" type="button">Player vs Pc</button>
+        <div class="botonStart">
+          <button class="boton" type="button" id="buttonPlay">Player vs Player</button>
         </div>
       </div>
     </div>
   `;
 };
 
-//Principal LLamdas a funciones
+// llamado a render index para pintar la pagina principal
 
 root.innerHTML = renderIndex();
 
