@@ -48,7 +48,7 @@ const renderTablero = () => {
 const confirmName1 = () => {
   const playerName1 = document.getElementById("playerName1");
   const inputName1 = document.getElementById("player1").value;
-
+  
   game.player1.name = inputName1;
   playerName1.innerHTML = game.player1.name;
 };

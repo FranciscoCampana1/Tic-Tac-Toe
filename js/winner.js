@@ -48,6 +48,7 @@ const uiRenderPlayAgain = () => {
   const backPlayAgain = document.getElementById("btnPlayAgain");
   backPlayAgain.addEventListener("click", () => {
     root.innerHTML = renderTablero();
+    pintCell();
     showBoard();
   });
 };

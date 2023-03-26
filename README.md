@@ -7,7 +7,7 @@
 This project was carried out in order to finish the concepts of html and css and then implement JavaScript.
 
 ## Deploy
-Using HTML and CSS 
+Using HTML, CSS and JavaScript. 
 
 ## Getting Started 
 To be able to play this game, all you need is an internet connection and a browser that can interpret Javascript
