@@ -63,39 +63,38 @@ const confirmName2 = () => {
 //Pintar celdas y mapear el tablero
 const pintCell = () => {
   const turno = document.getElementById("turno");
-  const htmlCasillas = document.querySelectorAll(".cell");
-  const mapCasillas = [];
+  const casillas = document.querySelectorAll(".cell");
+  const arrayTablero = [];
   let turno1 = false;
 
-  const manageClick = (element) => {
-    if (element.innerHTML == "") {
+  const manageClick = (celda) => {
+    if (celda.innerHTML == "") {
       if (turno1) {
-        element.innerHTML = game.player1.mark;
-        mapCasillas[element.id] = "x";
+        celda.innerHTML = game.player1.mark;
+        arrayTablero[celda.id] = "x";
         turno.innerHTML = "Turno de " + game.player1.name;
       } else {
-        element.innerHTML = game.player2.mark;
-        mapCasillas[element.id] = "o";
+        celda.innerHTML = game.player2.mark;
+        arrayTablero[celda.id] = "o";
         turno.innerHTML = "Turno de " + game.player2.name;
       }
       turno1 = !turno1;
     }
-    checkWinner(mapCasillas[element.id], mapCasillas);
+    checkWinner(arrayTablero[celda.id], arrayTablero);
     uiRenderHome();
     uiRenderPlayAgain();
   };
 
-  for (let i = 0; i < htmlCasillas.length; i++) {
-    htmlCasillas[i].addEventListener("click", (event) => {
-      const element = event.target;
-      manageClick(element);
+  for (let i = 0; i < casillas.length; i++) {
+    casillas[i].addEventListener("click", (event) => {
+      const celda = event.target;
+      manageClick(celda);
     });
-    htmlCasillas[i].id = i;
+    casillas[i].id = i;
   }
 };
 
 //Agregar eventos a los botones de name y llamar a la funcion que pinta las celdas
-
 const showBoard = () => {
   const buttonPlayer = document.getElementById("buttonPlay");
   buttonPlayer.addEventListener("click", () => {
@@ -123,4 +122,5 @@ const showBoard = () => {
   });
 };
 showBoard();
+
 
